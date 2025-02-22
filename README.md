@@ -1,6 +1,6 @@
 Select Menu Dropdown
 
-This is a simple custom select menu that allows users to select a social media platform from a dropdown. When a user clicks a div containing an image and paragraph, the selected platform is displayed at the top of the menu.
+This is a simple custom select menu that allows users to select a social media platform from a dropdown. When a user clicks a div containing an image and paragraph, the chosen platform is displayed at the top of the menu.
 
 Features
 * Custom dropdown menu
