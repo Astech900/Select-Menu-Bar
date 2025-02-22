@@ -1,9 +1,9 @@
 const displayEl = document.getElementById("display");
 let iconEl = document.getElementById("icon");
 let selectField = document.querySelector(".select-field");
-let socialMediaDiv = document.querySelector(".social-media")
-let app = document.querySelectorAll('#apps')
-let appArr = Array.from(app)
+let socialMediaDiv = document.querySelector(".social-media");
+let app = document.querySelectorAll('#apps');
+let appArr = Array.from(app);
 
 
 selectField.addEventListener("click",()=>{
