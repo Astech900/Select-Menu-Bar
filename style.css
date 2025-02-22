@@ -1,0 +1,89 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+    background: linear-gradient(45deg, #ffd89b, #19547b);
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.select-menu {
+    width: 30%;
+    /* height: 20rem; */
+    border-radius: 5px;
+    /* background: red; */
+    padding: 0.6rem;
+}
+
+.select-field {
+    width: 100%;
+    height: 2rem;
+    background: #fff;
+    padding: 1.5rem 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    cursor: pointer;
+}
+
+.select-field p {
+    font-size: 1.1rem;
+}
+
+.select-field img {
+    width: 1rem;
+    transition: 0.3s;
+
+}
+
+.rotateicon {
+    transform: rotate(180deg);
+}
+
+.social-media {
+    margin-top: 1.4rem;
+    width: 100%;
+    padding: 1rem 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    visibility: hidden;
+    transition: visible  0.3s;
+}
+
+.visible {
+    visibility: visible;
+}
+
+.social-media div {
+    width: 100%;
+    width: 100%;
+    height: 2rem;
+    background: #fff;
+    padding: 1.3rem 1rem;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+
+
+}
+
+.social-media div p {
+    font-size: 1.1rem;
+    padding-left: 0.6rem;
+}
+
+.social-media div:hover {
+    border: 1px solid gray;
+}
+
+.social-media div img {
+    width: 20px;
+}
